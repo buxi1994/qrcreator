@@ -1,6 +1,6 @@
 
 import React from 'react'
-import * as QRUtil  from "../../qrutil/qrutil"
+import * as QRUtil  from "../../../utils/qrutil"
  
 const addEvent = (el, event, handler) => {
 	if (!el) return;
@@ -51,7 +51,6 @@ class Drag extends React.Component {
 		/*事件兼容*/
 		const event = e || window.event;
 		/*事件源对象兼容*/
-		const target = event.target || event.srcElement;
 		this.setState({
 			needX: event.clientX - this.defaultX,
 			needY: event.clientY - this.defaultY,

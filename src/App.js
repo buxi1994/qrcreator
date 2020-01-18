@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
-import FramePanel from "./qrcontainer/framecontainer/framepanel"
+import FramePanel from "./design/container/framepanel"
+import 'antd/dist/antd.css';
 
 function App() {
   return (

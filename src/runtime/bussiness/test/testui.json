@@ -1,0 +1,38 @@
+{
+    "id": "qr-root-children",
+    "type": "div",
+    "props": "",
+    "children": [
+        {
+            "id": "test-button-1",
+            "type": "Button",
+            "props": {
+                "ghost": true,
+                "type": "primary"
+            },
+            "children":[
+                {
+                    "id": "test-button-1-text",
+                    "type": "text",
+                    "props": {"text":"QRCreater1"},
+                    "chirldren":[]
+                }
+            ]
+        },{
+            "id": "test-button-2",
+            "type": "Button",
+            "props": {
+                "ghost": true,
+                "type": "primary"
+            },
+            "children":[
+                {
+                    "id": "test-button-2-text",
+                    "type": "text",
+                    "props": {"text":"QRCreater2"},
+                    "chirldren":[]
+                }
+            ]
+        }
+    ]
+}
